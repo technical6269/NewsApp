@@ -5,7 +5,7 @@ import Navbar from './component/Navbar';
  import TextForm from './component/TextForm';
 //  import About from './component/About';
 import Alert from './component/Alert';
-// mport { BrowserRouter as Router, Routes, 
+// import { BrowserRouter as Router, Routes, 
 //     Route i} from "react-router-dom";
 
 function App() {
@@ -46,6 +46,7 @@ function App() {
  <Navbar tittle= "Textutils" aboutText= "About" mode={mode} toggleMode={toggleMode}/> 
  <Alert alert={alert}/>
   <div className="container my-3">
+  <div className="card">
  {/* <Routes>
   <Route exact path="/about"
       element={<About/>} /> */}
@@ -54,6 +55,7 @@ function App() {
        <TextForm showAlert={showAlert} heading="Enter the text to analyze below" mode={mode}/> 
     
    {/* </Routes> */}
+   </div>
   </div>
    {/* </Router> */}
    </>

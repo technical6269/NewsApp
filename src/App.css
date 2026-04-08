@@ -12,6 +12,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +40,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #45a049;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
