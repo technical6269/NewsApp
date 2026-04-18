@@ -1,6 +1,6 @@
 {
 
-     "name": "textutils-app",
+     "name": "newsapp",
 
      "version": "0.1.0",
 
@@ -29,10 +29,6 @@
      },
 
      "scripts": {
-
-          "predeploy": "npm run build",
-
-          "deploy": "gh-pages -d build -r https://github.com/technical6269/react-project--textutils.git",
 
           "start": "react-scripts start",
 
